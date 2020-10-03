@@ -1,0 +1,102 @@
+<!--This App uses Bootstrap Framework-->
+<!--This App uses NoSQL Firestore Database-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .active {
+            background-color: #f8f9fa!important;
+            color: #28a745!important;
+            border: 1px solid#28a745!important;
+        }
+    </style>
+    <title>Chat Me | Your Gate For Perfect Chat Rooms</title>
+</head>
+<body>
+    <!--container and title-->
+    <div class="container my-4">
+        <h1 class="my-4 text-center text-muted">Chat Me</h1>
+        <!--buttons for chat rooms-->
+        <div class="rooms mb-3 text-center">
+            <h5 class="my-3">Choose a Room</h5>
+            <button class="btn mb-2 active" style="color: #fff" id="general"># GENERAL</button>
+            <button class="btn mb-2" style="color: #fff" id="gaming"># GAMING</button>
+            <button class="btn mb-2" style="color: #fff" id="movies"># MOVIES</button>
+            <button class="btn mb-2" style="color: #fff" id="music"># MUSIC</button>
+            <button class="btn mb-2" style="color: #fff" id="learning"># LEARNING</button>
+        </div>
+        <!--chat lis & window-->
+        <div class="chat-window">
+            <ul class="chat-list list-group"></ul>
+        </div>
+        <!--new message chat form-->
+        <form class="new-chat my-3">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">New Message</div>
+                </div>
+                <input type="text" class="form-control" id="message" required autocomplete="off">
+                <div class="input-group-append">
+                    <input type="submit" class="btn bg-success" style="color: #fff" value="send">
+                </div>
+            </div>
+        </form>
+        <!--options-->
+        <button class="options btn text-secondary bg-light border d-block mx-auto">Options</button>
+        <form class="new-name my-3">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Update Name</div>
+                </div>
+                <input type="text" class="form-control" id="name" required autocomplete="off">
+                <div class="input-group-append">
+                    <input type="submit" class="btn bg-success" style="color: #fff" value="update">
+                </div>
+            </div>
+            <div class="update-msg text-center my-3"></div>
+        </form>
+    </div>
+    <footer>
+        <span>&#64; All Copyrights are reserved 2020</span>
+        <p>Developed by _ <span>HaWaRy</span>_</p>
+    </footer>
+    <!--fnsdate library-->
+    <script src="https://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
+
+    <!--Firebase Database-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-firestore.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDRnKu7Wt0ZSYJs0pbIHNKfSTddTaRggkg",
+        authDomain: "chat-app-rooms.firebaseapp.com",
+        databaseURL: "https://chat-app-rooms.firebaseio.com",
+        projectId: "chat-app-rooms",
+        storageBucket: "chat-app-rooms.appspot.com",
+        messagingSenderId: "1058793765986",
+        appId: "1:1058793765986:web:8b4826ca00dbdffc75253b",
+        measurementId: "G-M9FKGHKNWY"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    const db = firebase.firestore(); 
+    </script>
+
+    <script src="js/data.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

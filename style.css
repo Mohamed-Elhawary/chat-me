@@ -1,0 +1,51 @@
+body {
+    background: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.btn {
+    outline: none!important;
+    box-shadow: none!important;
+    background-color: #28a745;
+}
+
+.btn:focus {
+    outline: none!important;
+}
+
+.username {
+    display: inline-block;
+    min-width: 50px!important;
+    text-align: center;
+    padding: 1px 5px
+}
+.date {
+    font-size: 0.8em;
+}
+
+.new-name {
+    display: none;
+}
+
+footer {
+	margin: 100px auto;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color:#ccc;
+	padding: 5px
+}
+
+footer p {
+    margin-top: 8px;
+}
+
+footer p span {
+    background-color: black;
+    padding: 2px;
+    color: #fff;
+    border-radius: 5px;
+}
