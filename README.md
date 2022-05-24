@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6e0b79cd-da3d-4f98-8781-94a39e6788f7/deploy-status)](https://app.netlify.com/sites/chatme14/deploys)
 
-Chat Me is a real-time group conversation application depending on Firestore(NoSQL Database) from Firebase platform, it contains multi chat rooms in different categories & fields so they can match your interest.
+Chat Me is a real-time group conversation app depending on Firestore(NoSQL Database) from Firebase platform, it contains multi chat rooms in different categories & fields so they can match your interest.
   
 ![Screenshot](preview.png)
 
