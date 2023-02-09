@@ -16,15 +16,15 @@ https://user-images.githubusercontent.com/69651552/215086469-e914a2f5-43f6-4acf-
 
 * HTML5
 * CSS3
-* ES6  
-
-## Framework
-
-* [Bootstrap](https://getbootstrap.com/)  
+* Vanilla JS  
 
 ## Libraries  
 
 * [date-fns](https://date-fns.org/)  
+
+## Framework
+
+* [Bootstrap](https://getbootstrap.com/)  
 
 ## API  
 
