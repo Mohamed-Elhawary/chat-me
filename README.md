@@ -12,10 +12,16 @@ You can view the App from [here](https://chatme14.netlify.app/)
 
 https://user-images.githubusercontent.com/69651552/215086469-e914a2f5-43f6-4acf-99b6-d511bd404c3a.mp4
 
-## Built With
+## Features  
 
-* HTML5
-* CSS3
+- Ability to chat with `unknown name` or with a `username` from your choice.  
+
+![image](https://user-images.githubusercontent.com/69651552/94999318-d4f6d680-05b8-11eb-8c22-abf4ba03d226.png)
+
+## Built with
+
+* HTML
+* CSS
 * Vanilla JS  
 
 ## Libraries  
@@ -30,12 +36,6 @@ https://user-images.githubusercontent.com/69651552/215086469-e914a2f5-43f6-4acf-
 
 * [Firebase](https://firebase.google.com/)  
 
-## Features  
-
-- Ability to chat with `unknown name` or with a `username` from your choice.  
-
-![Chat-Me-Your-Gate-For-Perfect-Chat-Rooms](https://user-images.githubusercontent.com/69651552/94999318-d4f6d680-05b8-11eb-8c22-abf4ba03d226.png)
-
 ## Author
 
 * [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/)
@@ -43,7 +43,7 @@ https://user-images.githubusercontent.com/69651552/215086469-e914a2f5-43f6-4acf-
 ## Contact me through my social accounts
 
 * Email: mohamed.k.elhawary@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
 * [Github](https://github.com/Mohamed-Elhawary)  
 * [Behance](https://www.behance.net/mohamed-elhawary14)
 * [Codepen](https://codepen.io/Mohamed-ElHawary) 
